@@ -1,0 +1,16 @@
+Hey tell me one thing, is flashing nightly builds everyday will affect my phone's hardware??
+I rate this is the best from for redmi not 4sd, kind of similar wit aosp extended , bt better then dat , b3 backup is good bt not dat good , im expecting the developer too mke more battery efficient , cuz b3 is also one of the important things in days to days life.
+Adnvce thnx.
+I want blurred system ui feature..
+Fix the VoLTE disabling bug.
+I installed latest RR rom with Ceassium v1.9 together and Volte was not working. So I wondered what was wrong? Was it the rr build or the kernel. So i flashed only rr build And Volte was working fine. Then I install caessium and Volte wasn't working again. Please fix the problem. Everythign is perfect but volte.
+Awesome rom, great performance, awesome compatibilty, but, there is one problem, the camera app is kinda weak, I mean, it's not like the snap camera from LineageOS, anyone has a suggestion? or a way to get the snap from LoS to this rom?
+hey guys.... i wanna help about this : i wanna put an app (any app ) in a directory that it would make google play store (when i press on download button) install the app from the directory ..not downloading it from the internet !! how can i do this please !!
+Hello, i'm innocent user same as you. I just use what the developers told (update firmware, flash purenexus, install bean gapps, magisksu)
+this rom is very stable except for few minor bug (sound output)
+Hi guys, I already tested this room and so far is working realy smooth, the battery life is good as well...keep going with guys....
+Features that i hope to see in this room soon?? The HDR option in the camera app The sound quality to be improved, with v4a i don't get better sound..
+Beside that this room is awesome
+Which is bbetter in terms of smooth, stability , battery life & bug free? Did any try all?
+bro..!! can u plzz develop a nougat rom.. i men cosmic or rr with nkugat
+Hey guys. Is it possible to customize boot.img? Because my friend has also grand 2 and his boot.img changes into spongebob logo
