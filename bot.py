@@ -24,7 +24,7 @@ def on_inline_query(msg):
     with open('xda.txt') as f:
         text = f.read()
     text_model = markovify.NewlineText(text, state_size=1)
-    xda_post = text_model.make_sentence()
+    xda_post = text_model.make_short_sentence(430)
     if xda_post is not None:
         def compute():
             listobj = []
@@ -34,7 +34,7 @@ def on_inline_query(msg):
                     message_text=xda_post
                     )
                 ))
-            return { 'results' : listobj, 'cache_time' : 30 }
+            return { 'results' : listobj, 'cache_time' : 1 }
         answerer.answer(msg, compute)
 
 answerer = telepot.helper.Answerer(bot)
