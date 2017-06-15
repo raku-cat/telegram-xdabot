@@ -38,5 +38,24 @@ Is there a ROM that turns android to iOS?
 Anyone else have this problem ? I have some headaches and burning during calls (SD 625 version)
 Sometime Lucky Patcher blocks themes... Maybe...;?
 which on of those rooms is best and solving heating problems and high ram usage?
-
-
+I use 2.0 Quick charger with this kernel and got 2400 ampere but past few weeks after connecting charger and after 3-5 minute battery temperature reaches 45 degree than charging current down to 930 ampere. So it takes too much time to charge. I prefere quick charge.What is the solution for this? please anybody help me.
+Now we are at the time of the year were we are supposed to ask that one infamous question. When will be Xposed Framework for Android N be released? I know it's really too early to ask but still want to throw in the question just to be sure.
+whenever i try to update it says "can't update"
+i didn't understand and i don't wanna any root on my device
+but jarvis why im fscing week network strength and low data network in this KERNEL???
+magisk runs on nougat or not
+so will there be any page we users are waiting for an update from youfor building the page
+Found another bug. Your post image is not centering all you need is to fix the HTML code you did ;)
+found a bug, after a while working, keyboard and back button stop working, if you refresh works again for a while..
+Hi guys, why whatsapp sometimes go to sleep? I need to open the app for recieve the messages
+plz shear rootig aps for this divas
+**** u..ur stupid firmware bricked my kenzo u piece of ****..douche bag
+Add VoLTE support please
+i installed luckypatcher with root on a fresh install because i'm curious. it just ****s up your rom and tells you that you're a pirate scum.
+when 8.0 is coming soon,no hope now.
+Hi bro please make it official now kernel sources released please accept my request as a bro.
+Hlo i want to install custom rom plz tell me all steps from root to end plz.
+can you fix this bugs?,every one just copy pase the rom and release another name.but every rom have same bug.if u r a developer fix this
+Fix Slow Charging or atleast say something Mother ****ers... Lost my patience, nobody is responding. Where is the device maintainer ****er?
+is it a rom or a theme?
+Yeah yeah i know it but i have a disorder called obsessive compulsive disorder. That is even if i disable it my brain itself doesn't accept the fact that I myself disabled it. Thus i ask developers to remove this feature completely once and for all.
