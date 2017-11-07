@@ -11,6 +11,10 @@ from telepot.loop import MessageLoop
 from telepot.helper import InlineUserHandler, AnswererMixin
 from telepot.namedtuple import InlineQueryResultArticle, InputTextMessageContent
 from getpost import getpost
+import regex
+import bbcode
+
+bbparse = bbcode.Parser()
 
 with open(sys.path[0] + '/keys.json', 'r') as f:
     key = json.load(f)
@@ -33,9 +37,14 @@ def on_command(msg):
                 bot.sendChatAction(chat_id, 'typing')
                 posttext = getpost(command)
                 if posttext is not None:
-                    with open('xda.txt', 'a') as xda:
-                        xda.write(posttext + '\n')
-                    bot.sendMessage(chat_id, 'Post added to model')
+                    posttext = regex.sub('\[QUOTE((.*?)!?\])(.*?)\[\/QUOTE\]', '', posttext, flags=regex.IGNORECASE)
+                    posttext = bbparse.strip(posttext)
+                    if posttext is not None:
+                        with open('xda.txt', 'a') as xda:
+                            xda.write(posttext + '\n')
+                        bot.sendMessage(chat_id, 'Post added to model')
+                    else:
+                        bot.sendMessage(chat_id, 'Post ended up being empty')
                 else:
                     bot.sendMessage(chat_id, 'Invalid url')
 
