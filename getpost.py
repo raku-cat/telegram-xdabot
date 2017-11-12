@@ -18,8 +18,7 @@ def getpost(posturl):
             post = (post['pagetext'] for post in post_json if post['postid'] == postid).__next__()
         except:
             return
-        post = post.replace('\n','')
-        post = post.replace('\r','')
+        post = post.replace('\n','').replace('\r','')
         return post
     else:
         return

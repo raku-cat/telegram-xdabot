@@ -32,21 +32,31 @@ def on_command(msg):
             query = command.split(' ',1)[1]
         except IndexError:
             return
-        if command.startswith('/addpost'):
-            if from_id == 105301944:
-                bot.sendChatAction(chat_id, 'typing')
-                posttext = getpost(command)
-                if posttext is not None:
-                    posttext = regex.sub('\[QUOTE((.*?)!?\])(.*?)\[\/QUOTE\]', '', posttext, flags=regex.IGNORECASE)
-                    posttext = bbparse.strip(posttext)
+        if from_id == 105301944:
+            if command.startswith('/addpost'):
+                    bot.sendChatAction(chat_id, 'typing')
+                    posttext = getpost(query)
                     if posttext is not None:
-                        with open('xda.txt', 'a') as xda:
-                            xda.write(posttext + '\n')
-                        bot.sendMessage(chat_id, 'Post added to model')
+                        posttext = regex.sub('\[QUOTE((.*?)!?\])(.*?)\[\/QUOTE\]', '', posttext, flags=regex.IGNORECASE)
+                        posttext = bbparse.strip(posttext)
+                        if posttext is not None:
+                            with open('xda.txt', 'a') as xda:
+                                xda.write(posttext + '\n')
+                            bot.sendMessage(chat_id, 'Post added to model')
+                        else:
+                            bot.sendMessage(chat_id, 'Post ended up being empty')
                     else:
-                        bot.sendMessage(chat_id, 'Post ended up being empty')
+                        bot.sendMessage(chat_id, 'Invalid url')
+            elif command.startswith('/addtext'):
+                bot.sendChatAction(chat_id, 'typing')
+                if command is not None:
+                    modeltext = query.replace('\n', ' ').replace('\r', '')
+                    with open('xda.txt', 'a') as xda:
+                        xda.write(modeltext + '\n')
+                    bot.sendMessage(chat_id, 'Post added to model')
                 else:
-                    bot.sendMessage(chat_id, 'Invalid url')
+                    bot.sendMessage(chat_id, 'Post cant be an empty string')
+
 
 
 def on_inline_query(msg):
