@@ -65,3 +65,8 @@ One day, one guys say to me "I use CrDroid on my Mi Mix".... I say: "Are you cra
 BHAISHAAB !!! WHEN YOU INJECT VOLTE in ROM !! ROM really nice but only one disappointment ... when when VOLTE WILL WORK ?THANKS TO MADE THIS OFFICIAL ROM OREO FOR US )
 I can't do search on setting!
 any other way to get volte working
+Can this works on samsung p900, t705,t805,t810 tablets
+dot os version 1.1 is uploaded.... im the first to download...
+Sure. Will keep this noted bro. Rest assured. We messed something that made the kernel panic again and it was going to bootloader so had to remove everything and start from scratch.Thanks for the advise. Accepted and will keep updated.RegardsBond
+when will oreo build be released?
+appreciate ppl's help by pressing the thanks butter (👍)at the bottom 👇

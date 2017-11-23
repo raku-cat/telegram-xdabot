@@ -63,21 +63,13 @@ def on_inline_query(msg):
     query_id, from_id, query_string = telepot.glance(msg, flavor='inline_query')
     with open('xda.txt') as f:
         text = f.read()
-    text_model_dumb = markovify.NewlineText(text, state_size=1)
-    xda_post_dumb = text_model_dumb.make_short_sentence(430)
     text_model = markovify.NewlineText(text, state_size=2)
     xda_post = text_model.make_short_sentence(430)
     if xda_post is not None:
         def compute():
             listobj = []
             listobj.append(InlineQueryResultArticle(
-                id=str(6969), title='Volte pls bro',
-                input_message_content=InputTextMessageContent(
-                    message_text=xda_post_dumb
-                    )
-                ))
-            listobj.append(InlineQueryResultArticle(
-                id=str(6699), title='VoLTE please, brother.',
+                id=str(6969), title='Enable VoLTE',
                 input_message_content=InputTextMessageContent(
                     message_text=xda_post
                     )
