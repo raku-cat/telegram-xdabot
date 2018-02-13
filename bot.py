@@ -61,6 +61,11 @@ def on_command(msg):
 
 def on_inline_query(msg):
     query_id, from_id, query_string = telepot.glance(msg, flavor='inline_query')
+    thanks = 0
+    with open('xda.txt') as f:
+        for i,l in enumerate(f):
+            thanks += 1
+        print(thanks)
     with open('xda.txt') as f:
         text = f.read()
     text_model = markovify.NewlineText(text, state_size=2)
@@ -71,7 +76,7 @@ def on_inline_query(msg):
             listobj.append(InlineQueryResultArticle(
                 id=str(6969), title='Enable VoLTE',
                 input_message_content=InputTextMessageContent(
-                    message_text=xda_post
+                    message_text=xda_post + '\n\nThe Following ' + str(thanks) + ' Users Say Thanks For This Useful Post'
                     )
                 ))
             return { 'results' : listobj, 'cache_time' : 1 }

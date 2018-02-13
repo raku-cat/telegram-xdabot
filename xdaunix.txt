@@ -88,10 +88,3 @@ hlo everyone my name is lakshya ,am having a moto g5 cedric(XT1677).I FLASHED CO
 Please can someone try to create iOS rom for redmi 3s prime
 Overall kernal is fine, working good; But there is an issue with the screen rotation. I hope that would be fix soon.  Thank you.
 hi guys!! (i hope you understand! my english is "basic" butt i´m looking for the best rom for my mi5s(capricorn).. because the battery in my opinion is draining a lot!... :( ...
-Any news about Oreo?!
-6997 thank yous. 3 more please! Let's make it 7000! Thank you. :)
-Thanks for this ROM, Pls port Dolby atom for this ROM, as overall volume is low than previous ROM. Equaliser is not affecting much and keep crashing.
-in redwolf recovery guys need help wiped all system data and now was installing new rom for first time but it wont install please help im stuck with nowhere to go can i reboot to recovery with os please help asap
-  k heres the story  i wanted to flash rr official v6 for that it needed latest recovery so i installed redwolf but i made backups from twrp  now im in redwolf and after wiping system data , i was installing rr and it gave me error as in a piracy app is installed named mobilism but i had now wiped my device so now i cant install any rom cant recover my old backup because i got to know now that redwolf has its own backup folder and needs new backup. now i can only flash old twrp which i did but i cant boot to it because there is no os  im absolutely ****ed cant do anything is there any thing i can do to go back to normall:cr ying:  now the question is can i just reboot to my old recovery without the os
-  so after wiping system and data i flashed twrp from redwolf so are you damn sure that a reboot to recovery wont shut the system cause my internal storage is precious
-  pirated apps problem occurs in redwolf only and if i switch off without os how will my system be able to boot into recovery and i can flash twrp with redwolf but can i boot into recovery without os ??
