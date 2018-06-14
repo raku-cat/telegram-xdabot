@@ -73,7 +73,7 @@ appreciate ppl's help by pressing the thanks butter (👍)at the bottom 👇
 You should watch your language all the time and especially, when you don't know zilch about things you are talking, like in this thread (and a few others).. Android open source does not contain any malware or spying. But GAPPS, which are not open source, do, as well as many third party apps that either rely on Googleplay or contain Google firebase, like Substratum, for example. Substratum is especially dangerous, because for it to work, rom developers must modify android source to give additional permissions for Substratum apk. They call it "rootless", which means, the app is granted root by default, without asking. So, themes and other apps can use Substratum to take over your phone.
 good thing what happens is that in my samsung j7 2016 does not allow me to install themes because i do not get the option to install them manually one by one i can do
 how to make a device tree?
-Guys when your installing the rom and gapps in twrp. after finishing the installation just do wipe dalvik &cache This is the trick i found If It is Not worked for you then i found a patch for this Download for nougat Download for oreo If you want see the here If it helps you then just say thans and if you have any doubts then comment bellow BY Abhi086 If you have any questions then this my username Abhi086 in telegram:good::good:
+Guys when your installing the rom and gapps in twrp. after finishing the installation just do wipe dalvik &cache This is the trick i found If It is Not worked for you then i found a patch for this Download for nougat Download for oreo If you want see the here If it helps you then just say thans and if you have any doubts then comment bellow :good::good:
 Sir how to wipe dalvik and cache And what is twrp Please tell sir I am noob Bye
 Can it be cloned before rom compiling ? Like device tree
  Reboot and turn off wofi and enable data and check calls won't drop
@@ -95,3 +95,25 @@ in redwolf recovery guys need help wiped all system data and now was installing 
   k heres the story  i wanted to flash rr official v6 for that it needed latest recovery so i installed redwolf but i made backups from twrp  now im in redwolf and after wiping system data , i was installing rr and it gave me error as in a piracy app is installed named mobilism but i had now wiped my device so now i cant install any rom cant recover my old backup because i got to know now that redwolf has its own backup folder and needs new backup. now i can only flash old twrp which i did but i cant boot to it because there is no os  im absolutely ****ed cant do anything is there any thing i can do to go back to normall:cr ying:  now the question is can i just reboot to my old recovery without the os
   so after wiping system and data i flashed twrp from redwolf so are you damn sure that a reboot to recovery wont shut the system cause my internal storage is precious
   pirated apps problem occurs in redwolf only and if i switch off without os how will my system be able to boot into recovery and i can flash twrp with redwolf but can i boot into recovery without os ??
+ok if u said so let keep waiting 29 february as u eliar said   Sent from my SCH-I699 using XDA Free mobile app
+  :eek: Building Oreo means more work fixing every single bug and most probably the bugs in former versions does stay in the latter
+  what is SOT?
+My Suggestion is if you can add Deep Sleep Feature it would be amazing
+ Is build with volte released or is it coming??
+ Bummer! In India Jio ( An Operator ) has restricted calling via VoLTE only ( although can do call using their app but that uses internet all the time voip may be? ) so being their user it is important to some of us and thats why has to stick with stock.  Although I was on Lineage for about 6 months untill that calling app ate my battery so much. :crying: If you can build a test build I'm ready to test it anytime. Take your time and thank you for being some of the few devs working on sumire still! :good:
+ Ha ha ha.. In India VoLTE is a necessary one!! And the reason I'm sticking with Stock is, VoLTE. I'm actually looking the thread every 2,3 days only to hear a word about VoLTE from you! Once the VoLTE is available, I'll flash LOS straight away!! Btw, thanks for your hardwork due!!
+how i can get root for my devais
+Display kernal for Rn4  As redmi note 3 has agni kernal... Pls suggest ...
+  flash xposed then install xposed installer apk then from app instal XinternalSD, you can enable all apps or what you want to save it's files on External SD Card, :)
+Hello. Please tell me how to raise the sound in the dynamics through the engineering menu?
+  hi dude ,, i can't install it it says error any tips?
+Magisk safety net check fails in this rom What to do?
+How to enable the Dt2w feature?  And how to fix the lag on some games?
+How to download the nvram of this rom
+I want build.prop ...my phone is bricked plz help and thanks in advance
+Add color accents and dark theme to display settings in Carbon ROM for Kenzo.
+Please tell me developers when it will come
+ hello.I have bick game when I play. game LIEN QUAN MOBILE . I Hope admin fix this error.tks  [SIZE=1]---------- Post added at 09:45 AM ---------- Previous post was at 09:44 AM ----------[/SIZE]   me too
+Hello frnds can anyone plz tell me how to enable 5ghz band in WiFi hotspot like miui,thnx in advance,I'm eagerly waiting for your reply guys...
+  Plzzz nah Yaar plzzz I beg u plzzz
+  I didn't mean this ROM make any ROM which have nogut android and stable for daily use.....any ROM plzzz any...bro any ROM will make me happy....plzzz reply soon.....

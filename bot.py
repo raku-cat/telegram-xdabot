@@ -32,41 +32,39 @@ def on_command(msg):
             query = command.split(' ',1)[1]
         except IndexError:
             return
-        if from_id == 105301944:
-            if command.startswith('/addpost'):
-                    bot.sendChatAction(chat_id, 'typing')
-                    posttext = getpost(query)
-                    if posttext is not None:
-                        posttext = regex.sub('\[QUOTE((.*?)!?\])(.*?)\[\/QUOTE\]', '', posttext, flags=regex.IGNORECASE)
-                        posttext = bbparse.strip(posttext)
-                        if posttext is not None:
-                            with open('xda.txt', 'a') as xda:
-                                xda.write(posttext + '\n')
-                            bot.sendMessage(chat_id, 'Post added to model')
-                        else:
-                            bot.sendMessage(chat_id, 'Post ended up being empty')
-                    else:
-                        bot.sendMessage(chat_id, 'Invalid url')
-            elif command.startswith('/addtext'):
+        if command.startswith('/addpost'):
                 bot.sendChatAction(chat_id, 'typing')
-                if command is not None:
-                    modeltext = query.replace('\n', ' ').replace('\r', '')
-                    with open('xda.txt', 'a') as xda:
-                        xda.write(modeltext + '\n')
-                    bot.sendMessage(chat_id, 'Post added to model')
+                posttext = getpost(query)
+                if posttext is not None:
+                    posttext = regex.sub('\[QUOTE((.*?)!?\])(.*?)\[\/QUOTE\]', '', posttext, flags=regex.IGNORECASE)
+                    posttext = bbparse.strip(posttext)
+                    if posttext is not None:
+                        with open(sys.path[0] + 'xda.txt', 'a') as xda:
+                            xda.write(posttext + '\n')
+                        bot.sendMessage(chat_id, 'Post added to model')
+                    else:
+                        bot.sendMessage(chat_id, 'Post ended up being empty')
                 else:
-                    bot.sendMessage(chat_id, 'Post cant be an empty string')
+                    bot.sendMessage(chat_id, 'Invalid url')
+        elif command.startswith('/addtext') and from_id == 105301944:
+            bot.sendChatAction(chat_id, 'typing')
+            if command is not None:
+                modeltext = query.replace('\n', ' ').replace('\r', '')
+                with open(sys.path[0] + 'xda.txt', 'a') as xda:
+                    xda.write(modeltext + '\n')
+                bot.sendMessage(chat_id, 'Post added to model')
+            else:
+                bot.sendMessage(chat_id, 'Post cant be an empty string')
 
 
 
 def on_inline_query(msg):
     query_id, from_id, query_string = telepot.glance(msg, flavor='inline_query')
     thanks = 0
-    with open('xda.txt') as f:
+    with open(sys.path[0] + 'xda.txt') as f:
         for i,l in enumerate(f):
             thanks += 1
-        print(thanks)
-    with open('xda.txt') as f:
+    with open(sys.path[0] + 'xda.txt') as f:
         text = f.read()
     text_model = markovify.NewlineText(text, state_size=2)
     xda_post = text_model.make_short_sentence(430)
